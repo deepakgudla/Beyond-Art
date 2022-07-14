@@ -79,14 +79,12 @@ class App extends Component {
                 <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
                 <div className="navbar-brand col-sm-3 col-md-3 mr-0"     style={{color:'white'}}>
                 
-                    BeYoNdArT
+                    BeYoNdArT NFT Collection 
 
                 </div>
                 <ul className="navbar-nav px-3"> 
                 <li className="nav-item text-nowrap d-none d-sm-none d-sm-block" > 
-                <small className="text-white"> 
-              
-                wallet address -  {this.state.account} 
+                <small className="text-red">   wallet address -  {this.state.account} 
                 </small>
                 </li>
                 </ul>
